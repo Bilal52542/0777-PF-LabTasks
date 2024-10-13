@@ -1,15 +1,16 @@
 #include<stdio.h>
 int main(){
 	int num;
-	int i,j,h;
-	int array[num];
-	
+
 	printf("Enter amount of numbers to be input ");
 	scanf("%d",&num);
 	
-	for(i=1; i<=num; i++){
-		printf("Enter number %d ",i);
-		scanf("%d",&array[i-1]);	
+	int i,j,h;
+	int array[num];
+	
+	for(i=0; i<num; i++){
+		printf("Enter number %d ",i+1);
+		scanf("%d",&array[i]);	
 	}//input array elements
 	
 	printf("Input is ");
@@ -31,5 +32,4 @@ int main(){
 	printf("\nMinimum number is %d",min);	
 return 0;
 }
-
 
