@@ -1,0 +1,3 @@
+A Monster Calls,Patrick Ness,1000,42,11
+The Hunger Games,Suzanne Collins,1001,50,15
+The Great Gatsby,F. Scott Fitzgerald,1003,50,18
